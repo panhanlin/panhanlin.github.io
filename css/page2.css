@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.outer {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    position: fixed;
+    width: 1200px;
+    height: 72px;
+    background: #333;
+    margin: 0 auto;
+    z-index: 18;
+}
+.nav ul img{
+width: 220px;
+float: left;
+}
+
+.nav>ul>li {
+    float: left;
+    margin: 0 4px;
+    background: #333;
+}
+
+.nav a {
+    display: block;
+    text-align: center;
+    line-height: 72px;
+    color: #BDB273;
+    font-size: 20px;
+}
+
+.nav>ul>li>a {
+    width: 110px;
+    height: 72px;
+}
+
+.hui {
+    background-color: #666666;
+}
+
+.nav a:hover {
+    background-color: #666666;
+}
+
+.left {
+    width: 850px;
+    position: absolute;
+    float: left;
+    top: 80px;
+    font-family: Arial;
+}
+
+.left img {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 800px;
+}
+
+.right {
+    position: relative;
+    float: right;
+    top: 110px;
+}
+
+.retie {
+    margin-top: 20px;
+}
+
+.retie li {
+    width: 300px;
+    height: 30px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    line-height: 30px;
+}
+
+.more {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+.zhibo {
+    position: absolute;
+    width: 1200px;
+    top: 900px;
+}
+
+.zhibo img {
+    width: 200px;
+    margin-left: 20px;
+    height: 120px;
+}
+
+.end {
+    height: 70px;
+    width: 1200px;
+    background-color: black;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    top: 1100px;
+}

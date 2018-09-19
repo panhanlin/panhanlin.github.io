@@ -1,0 +1,9 @@
+$(function(){
+   $('.nav>ul>li').hover(
+   	function(){
+   		 $(this).find('ul')./*show(1200)*/slideDown(1200)
+   	},
+	function(){
+		$('.nav>ul>li').find('ul')./*hide(1000)*/slideUp(0).stop();
+	})
+})
